@@ -1,18 +1,18 @@
 - type: font
   id: Chat
-  path: /Fonts/_White/NK-57-Monospace/NK57-Monospace-Cd-Rg.otf
+  path: /Fonts/_White/pixelgeorgia.ttf
 
 - type: font
   id: ChatItalic
-  path: /Fonts/_White/NK-57-Monospace/NK57-Monospace-Cd-Rg-It.otf
+  path: /Fonts/_White/pixelgeorgia.ttf
 
 - type: font
   id: ChatBold
-  path: /Fonts/_White/NK-57-Monospace/NK57-Monospace-Cd-Bd.otf
+  path: /Fonts/_White/pixelgeorgia.ttf
 
 - type: font
   id: ChatBoldItalic
-  path: /Fonts/_White/NK-57-Monospace/NK57-Monospace-Cd-Bd-It.otf
+  path: /Fonts/_White/pixelgeorgia.ttf
 
 - type: font
   id: Bedstead

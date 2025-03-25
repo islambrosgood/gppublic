@@ -22,11 +22,11 @@ chat-manager-server-wrap-message = СЕРВЕР: { $message }
 chat-manager-sender-announcement-wrap-message = [font size=14][bold]Объявление {$sender}:[/font][font size=12]
                                                 {$message}[/bold][/font]
 
-chat-manager-entity-say-wrap-message = [bold][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader][/bold] [italic]{$verb}[/italic], [font="{$fontType}" size={$fontSize}]"[BubbleContent]{$message}[/BubbleContent]"[/font]
-chat-manager-entity-say-bold-wrap-message = [bold][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader][/bold] {$verb}, [font="{$fontType}" size={$fontSize}]"[bold][BubbleContent]{$message}[/BubbleContent][/bold]"[/font]
+chat-manager-entity-say-wrap-message = [bold][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader][/bold][color=#12E700] [italic]{$verb}[/italic], [font="{$fontType}" size={$fontSize}]"[BubbleContent]{$message}[/BubbleContent]"[/font][/color]
+chat-manager-entity-say-bold-wrap-message = [bold][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader][/bold][color=#E00000] {$verb}, [font="{$fontType}" size={$fontSize}]"[bold][BubbleContent]{$message}[/BubbleContent][/bold]"[/font][/color]
 
-chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] шепчет,"[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
-chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Некто[/BubbleHeader] шепчет, "[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
+chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader][color=#67B260] шепчет,"[BubbleContent]{$message}[/BubbleContent]"[/italic][/font][/color]
+chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Некто[/BubbleHeader][color=#67B260] шепчет, "[BubbleContent]{$message}[/BubbleContent]"[/italic][/font][/color]
 
 chat-manager-entity-me-wrap-message = { $entityName } { $message }
 
