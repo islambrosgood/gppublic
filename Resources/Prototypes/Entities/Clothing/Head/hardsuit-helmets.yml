@@ -64,6 +64,8 @@
     coolingCoefficient: 0.005
   - type: FireProtection
     reduction: 1 # WD EDIT: 0.2 -> 1
+  - type: HelmetOverlay
+    radiationSensor: true
 
 #Engineering Hardsuit
 - type: entity

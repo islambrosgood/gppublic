@@ -15,4 +15,10 @@ public sealed partial class WhiteCVars
     /// </summary>
     public static readonly CVarDef<bool> FilmGrain =
         CVarDef.Create("graphics.film_grain", true, CVar.CLIENTONLY | CVar.ARCHIVE);
+
+    /// <summary>
+    /// Helmet overlay on/off
+    /// </summary>
+    public static readonly CVarDef<bool> HelmetOverlay =
+        CVarDef.Create("graphics.helmet_overlay", true, CVar.CLIENTONLY | CVar.ARCHIVE);
 }
